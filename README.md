@@ -7,7 +7,7 @@
 ### Navigations commands:
 - Move up: k
 - Move down: j
-- Move right: l
+- M:ove right: l
 - Move left: h
 - Page down: ctrl + f
 - Page up: ctrl + b
@@ -15,7 +15,7 @@
 - move backward by word: b
 - to move to the top file: gg or 1gg
 - to move to the last line: $G or just G (shift + g)
-- To go to a specific line number: :<number>[Enter] or <number>gg
+- To go to a specific line number: :[number][Enter] or [number]gg
 - To move to the end of the line: $ (shift + 4)
 - To move to the head line: 0
 ### Deleting Text
@@ -32,7 +32,7 @@
   + d0: delete from cursor to the head of the line
 
 note
-- <number> + command : <number> time to repeat the command
+- [number] + command : [number] time to repeat the command
 - open help in: help.txt
 
 ### Cut, Copy and Paste
