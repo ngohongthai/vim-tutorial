@@ -53,5 +53,24 @@ note
 - A (shift + a): Insert at the end of line
 - o : Insert a line below
 - O (shift + o): Insert a line above
-- If you want to insert 80 asterisks (*). command: 80 + i (for insert mode)+ * (shift + 8)
+- If you want to insert 80 asterisks characters: 80 + i (for insert mode) + * + ESC
+- Create 5 lines that begin with "#": 5 + o + # + ESC
+- R or shift + r : Replace
+- guu : change the current LINE from upper to lower
+- gUU: change the current LINE from lower to upper
+- guw: change to end of current WORD from upper to lower
+- guaw: change all current WORD to lower
+- gUw: change to the end of current WORD to upper
+- gUaw: change all current WORD to upper
 
+- shift + ~ : change one character to upper/lower
+- g~~ : Invert case to entire LINE
+- g~w: Invert case to current WORD
+- guG: Change to lowercase until the end of document.
+
+- J (shift + j): Combine two line (Vim will add space)
+- gJ : Combine two line without adding a space
+
+### Searching, Search and Replace
+- /text : search text
+ 
