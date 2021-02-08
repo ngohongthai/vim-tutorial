@@ -43,3 +43,9 @@ note
 - u: undo
 - ctrl + r: redo
 
+### Register
+- "[register name][command]
+   - e.g: "ayy -> copy line and save named a
+          "ap -> paste above copy 
+- list available register: :registers
+
