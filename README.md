@@ -20,7 +20,7 @@
 - To move to the head line: 0
 ### Deleting Text
 - delete character: move cursor to the character and press x
-- delete word: use "w" to move to the word need to be deleted and press: dw
+- delete word: use "W" to move to the word need to be deleted and press: dW
 - d + (h-left,j-down,k-up,l-right)
   + dh: delete the left character
   + dl: delete current charater
@@ -38,14 +38,20 @@ note
 ### Cut, Copy and Paste
 - dd: cut line
 - p: paste
+- shift + p : paste above line
 - y: copy line
 - yw: copy word
 - u: undo
 - ctrl + r: redo
-
 ### Register
 - "[register name][command]
-   - e.g: "ayy -> copy line and save named a
-          "ap -> paste above copy 
+   - e.g: + "ayy -> copy line and save named a
+          + "ap -> paste above copy 
 - list available register: :registers
+
+### Inserting, Changing, Replacing and Joining
+- A (shift + a): Insert at the end of line
+- o : Insert a line below
+- O (shift + o): Insert a line above
+- If you want to insert 80 asterisks (*). command: 80 + i (for insert mode)+ * (shift + 8)
 
