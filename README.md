@@ -72,5 +72,13 @@ note
 - gJ : Combine two line without adding a space
 
 ### Searching, Search and Replace
-- /text : search text
- 
+- /text : search text (Search in forward direction), ?text: Search in backward direction
+- n: find next occurrence
+- N: find previous occurrence
+-//: Repeat previous foward search
+- * : Search word under cursor (next) 
+- # : Search word under cursor (previous)
+- :vimgrep searchText filename.txt or * .txt
+   + :cn : find next
+   + :cN : find previous
+
