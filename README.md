@@ -45,8 +45,9 @@ note
 - ctrl + r: redo
 ### Register
 - "[register name][command]
-   - e.g: + "ayy -> copy line and save named a
-          + "ap -> paste above copy 
+   - e.g:
+	 + "ayy -> copy line and save named a
+	 + "ap -> paste above copy 
 - list available register: :registers
 
 ### Inserting, Changing, Replacing and Joining
@@ -75,7 +76,7 @@ note
 - /text : search text (Search in forward direction), ?text: Search in backward direction
 - n: find next occurrence
 - N: find previous occurrence
--//: Repeat previous foward search
+- //: Repeat previous foward search
 - * : Search word under cursor (next) 
 - # : Search word under cursor (previous)
 - :vimgrep searchText filename.txt or * .txt
