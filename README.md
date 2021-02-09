@@ -52,6 +52,7 @@ note
 
 ### Inserting, Changing, Replacing and Joining
 - A (shift + a): Insert at the end of line
+- a : Insert at right of character
 - o : Insert a line below
 - O (shift + o): Insert a line above
 - If you want to insert 80 asterisks characters: 80 + i (for insert mode) + * + ESC
@@ -76,10 +77,11 @@ note
 - /text : search text (Search in forward direction), ?text: Search in backward direction
 - n: find next occurrence
 - N: find previous occurrence
-- //: Repeat previous foward search
-- * : Search word under cursor (next) 
-- # : Search word under cursor (previous)
+- Repeat previous foward search: //
+- Search word under cursor (next): * 
+- Search word under cursor (previous): #
 - :vimgrep searchText filename.txt or * .txt
    + :cn : find next
    + :cN : find previous
+
 

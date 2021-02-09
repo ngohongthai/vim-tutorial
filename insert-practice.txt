@@ -1,21 +1,22 @@
-<= What is your favorite editor?
+Vim <= What is your favorite editor?
 
-<= What is your favorite color?
+Blue <= What is your favorite color?
 
-Enter your name here =><=
+Enter your name here =>Thai<=
 
-Enter your name here:
+Enter your name here: Thai
 
 One the line below, type the name of your favorite movie.
+Fast and furious
 
+Vim
 ^^^ One the line above, type the name of the editor you are using.
 
-This line belongs
-with the one below it.
+This line belongs with the one below it.
 
-Vim is her favorite editor.
+Vim is our favorite editor.
 
-I have a white car.
+I have a white cat.
 
 I am having a great time in this vim class!
 
