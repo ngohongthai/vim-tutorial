@@ -84,4 +84,14 @@ note
    + :cn : find next
    + :cN : find previous
 
+### Text object and Macros
+- daw: Nếu muốn xóa từ kèm khoảng trắng phía sau
+- diw: Nếu muốn xóa từ mà không xóa khoảng trắng phía sau
+- colors = ['red', 'green', 'blue']: muốn xóa nội dung trong ngoặc vuông, -> move con trỏ vào trong của dấu ngoặc và gõ: ci] or ci[ để change nội dung, hoặc di] or di[ để xóa nội dung trong ngoặc, dungf ca], ca[, da], da[ để xóa cả ngoặc
+-cit = change bên trong tag
+
+- Macros
+q + marcros name: bắt đầu record
+q: kết thúc record
+@ + macros name: thực hiện công việc đã record
 
