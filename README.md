@@ -111,5 +111,6 @@ U - Make uppercase
 > - Shift right
 < - Shift left
 ### Vim setting and the Vimrc File
+- create vimrc in linux: e ~/.vimrc
 
 
