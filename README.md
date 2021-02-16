@@ -4,6 +4,7 @@
 - Save and Quit: ESC + :wq
 - on/off ruler: set ruler!
 - zz of Z: change the view to the center
+- set nu: show line number
 ### Navigations commands:
 - Move up: k
 - Move down: j
@@ -94,4 +95,9 @@ note
 q + marcros name: bắt đầu record
 q: kết thúc record
 @ + macros name: thực hiện công việc đã record
+(from num), (to num) normal @(macros name) : repeat macros 
+### Visual Mode
+- shift > : move to left
+### Vim setting and the Vimrc File
+
 
