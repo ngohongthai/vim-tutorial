@@ -97,7 +97,19 @@ q: kết thúc record
 @ + macros name: thực hiện công việc đã record
 (from num), (to num) normal @(macros name) : repeat macros 
 ### Visual Mode
-- shift > : move to left
+~ - Switch case
+c - Change
+d - Delete
+y - Yank
+r - Replace
+x - Delete
+I - Insert
+A - Append
+J - Join
+u - Make lowercase
+U - Make uppercase
+> - Shift right
+< - Shift left
 ### Vim setting and the Vimrc File
 
 
